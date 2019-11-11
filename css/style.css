@@ -1,33 +1,35 @@
+
+
 .logo2 {
-  background: url(../img/logo2.png) 0 100%/95% no-repeat;
+  background: url(../img/logo2.png) 0 100%/90% no-repeat;
 }
 
 #fb a {
-  background: url(../img/fb.png) 0 100%/70% no-repeat;
+  background: url(../img/_ionicons_svg_logo-facebook.svg) 0 100% no-repeat;
   line-height: 3;
   opacity: 0.7;
 }
 
 #tw a {
-  background: url(../img/tweet.png) 0 100%/70% no-repeat;
+  background: url(../img/_ionicons_svg_logo-twitter.svg) 0 100% no-repeat;
   line-height: 3;
   opacity: 0.8;
 }
 
 #insta a {
-  background: url(../img/insta.png) 0 100%/70% no-repeat;
+  background: url(../img/_ionicons_svg_logo-instagram.svg) 0 100% no-repeat;
   line-height: 3;
   opacity: 0.9;
 }
 
 #tum a {
-  background: url(../img/tumblr.jpg) 0 100%/70% no-repeat;
+  background: url(../img/_ionicons_svg_logo-tumblr.svg) 0 100% no-repeat;
   line-height: 3;
   opacity: 0.9;
 }
 
 #in a {
-  background: url(../img/in.png) 0 100%/70% no-repeat;
+  background: url(../img/_ionicons_svg_logo-linkedin.svg) 0 100% no-repeat;
   line-height: 3;
   opacity: 0.6;
 }
