@@ -33,3 +33,9 @@
   line-height: 3;
   opacity: 0.6;
 }
+
+.newsletter-aside {
+  height: 300px;
+  width: 190px !important;
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) no-repeat scroll center center / cover;
+}
