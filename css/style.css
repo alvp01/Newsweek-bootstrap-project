@@ -1,4 +1,15 @@
-
+.slideshow {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 52px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+  text-align: center;
+  justify-content: center;
+}
 
 .logo2 {
   background: url(../img/logo2.png) 0 100%/90% no-repeat;
