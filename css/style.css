@@ -1,14 +1,35 @@
+.n-logo {
+  width: 29px;
+  height: 28px;
+}
+
+.n-title {  font: bold 19px/19px "Roboto Condensed",sans-serif; }
+
+.text-danger { color: #f72210 !important; }
+
 .slideshow {
-  display: flex;
+  width: 70px !important;
+  height: 52px !important;
+  display: block;
   position: absolute;
   bottom: 0;
   left: 0;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+  text-ident: 5px;
+  text-align: center;
+}
+
+.slideshow2 {
   width: 70px;
   height: 52px;
+  left: 0;
+  bottom: 0;
   background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
   color: #e9212e;
   text-align: center;
-  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .logo2 {
