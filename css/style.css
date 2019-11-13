@@ -7,6 +7,20 @@
 
 .text-danger { color: #f72210 !important; }
 
+.tri-heading {
+  font: bold 22px/22px "Roboto Condensed", sans-serif;
+  text-transform: capitalize;
+}
+
+.tri-heading a:hover { text-decoration: underline #f72210;}
+
+.subheading { font: bold 17px/21px "Roboto Condensed",sans-serif;}
+
+.subheading a:hover {
+  color: #f72210 !important;
+  text-decoration: none;
+}
+
 .slideshow {
   width: 70px !important;
   height: 52px !important;
