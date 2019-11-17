@@ -85,3 +85,23 @@
   width: 190px !important;
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) no-repeat scroll center center / cover;
 }
+
+.bg-pale { background-color: #f4f5f6;}
+
+.img-left {
+  top: 0;
+  left: 12px;
+}
+
+.img-right {
+  right: 25px;
+  bottom: 0;
+}
+
+.newsletter-link {
+  background-color: #f72210
+  color: white;
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  display: inline-block;
+}
