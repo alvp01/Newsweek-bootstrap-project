@@ -12,7 +12,7 @@
   text-transform: capitalize;
 }
 
-.tri-heading a:hover { text-decoration: underline #f72210;}
+.tri-heading a:hover {text-decoration: underline #f72210;}
 
 .subheading { font: bold 17px/21px "Roboto Condensed",sans-serif;}
 
@@ -104,6 +104,7 @@
   padding: 10px 10px 10px 12px;
   font: bold 18px/18px "Roboto Condensed",sans-serif;
   display: inline-block;
+  max-width: 128px;
 }
 
 .newsletter-link::after {
@@ -137,4 +138,27 @@
 .newsletter-title {
   font: bold 16px/16px "Roboto Condensed",sans-serif;
   padding-bottom: 11px;
+}
+
+.category-img {
+  display: block;
+  font: bold 17px/16px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  padding: 8px 15px 9px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.quad-title {
+  font: bold 24px/24px "Roboto Condensed",sans-serif;
+}
+
+.quad-title a:hover {text-decoration: underline #f72210;}
+
+.quad-text {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 20px;
 }
