@@ -162,3 +162,20 @@
   font-size: 15px;
   line-height: 20px;
 }
+
+.magazine-link {
+  display: inline-block;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  padding: 10px 10px 10px 12px;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  max-height: 38px;
+}
+
+.magazine-link:hover {
+  background-color: #dbdcdd;
+  color: black;
+  text-decoration: none;
+}
