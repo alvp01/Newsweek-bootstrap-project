@@ -179,3 +179,24 @@
   color: black;
   text-decoration: none;
 }
+
+.magazine-pick {
+  display: block;
+  width: 466px;
+  height: 311px;
+  position: relative;
+  /* padding-bottom: 100%; */
+  overflow: hidden;
+  width: 100%;
+}
+
+.magazine-img {
+  transform: translate(-50%,0%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  height: 100% !important;
+  max-width: inherit;
+  margin: 0;
+}
