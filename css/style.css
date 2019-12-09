@@ -21,6 +21,23 @@
   text-decoration: none;
 }
 
+.stories-border {
+  position: relative;
+}
+
+.stories-border::before {
+  position: absolute;
+  content: '';
+  left: 5%;
+  width: 90%;
+  border-top: 1px solid #dee2e6;
+}
+
+.latest-img {
+  width: 135px;
+  height: 90px;
+}
+
 .slideshow {
   width: 70px !important;
   height: 52px !important;
@@ -50,34 +67,26 @@
   background: url(../img/logo2.png) 0 100%/90% no-repeat;
 }
 
-#fb a {
-  background: url(../img/_ionicons_svg_logo-facebook.svg) 0 100% no-repeat;
-  line-height: 3;
-  opacity: 0.7;
+.footer-icons {color: #737373;}
+
+.fb:hover {
+  color: #3b5998;
 }
 
-#tw a {
-  background: url(../img/_ionicons_svg_logo-twitter.svg) 0 100% no-repeat;
-  line-height: 3;
-  opacity: 0.8;
+.tw:hover {
+  color: #1da1f2;
 }
 
-#insta a {
-  background: url(../img/_ionicons_svg_logo-instagram.svg) 0 100% no-repeat;
-  line-height: 3;
-  opacity: 0.9;
+.insta:hover {
+  color: #405de6;
 }
 
-#tum a {
-  background: url(../img/_ionicons_svg_logo-tumblr.svg) 0 100% no-repeat;
-  line-height: 3;
-  opacity: 0.9;
+.tum:hover {
+  color: #35465c;
 }
 
-#in a {
-  background: url(../img/_ionicons_svg_logo-linkedin.svg) 0 100% no-repeat;
-  line-height: 3;
-  opacity: 0.6;
+.in:hover {
+  color: #0077b5;
 }
 
 .newsletter-aside {
@@ -86,7 +95,7 @@
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) no-repeat scroll center center / cover;
 }
 
-.bg-pale { background-color: #f4f5f6;}
+.bg-pale { background-color: #f4f5f6 !important;}
 
 .img-left {
   top: 0;
@@ -182,10 +191,8 @@
 
 .magazine-pick {
   display: block;
-  width: 466px;
-  height: 311px;
   position: relative;
-  /* padding-bottom: 100%; */
+  padding-bottom: 100%;
   overflow: hidden;
   width: 100%;
 }
@@ -199,4 +206,145 @@
   height: 100% !important;
   max-width: inherit;
   margin: 0;
+}
+
+.section-title {
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+}
+
+.top-stories-headings {font: bold 24px/24px "Roboto Condensed", sans-serif;}
+
+.top-stories-headings a:hover {text-decoration: underline #f72210;}
+
+.authors {
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color:#555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.culture-title {
+  font: 20px/22px "Lora",serif;
+}
+
+.culture-title a:hover {text-decoration: none;}
+
+.culture-text {font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;}
+
+.more-stories {font: bold 17px/20px "Roboto Condensed", sans-serif;}
+
+.more-stories a:hover {text-decoration: underline #f72210;}
+
+.more-stories-text {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+
+.visibility-md {display: none;}
+
+.visibility-alter {display: inline-flex;}
+
+.newsweek-img {
+  width: 236px;
+  height: 36px;
+}
+
+.copyright-text {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color:#666;
+}
+
+.footer-nav-text {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.mag-category {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+}
+
+.mag-red {
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  padding: 2px 7px;
+}
+
+.mag-white {
+  color: #f72210;
+  margin-right: 7px;
+  padding: 2px 7px;
+}
+
+.magazine-title {height: 40px;}
+
+.magazine-headings {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.mag-featured {
+  transform: translate(-50%,0%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  max-width: inherit;
+}
+
+.magazine-featured {
+  display: block;
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.infocus {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  padding: 2px 7px;
+  width: 77px;
+}
+
+@media only screen and (min-width: 768px) {
+  .left-column {
+    top: 0;
+    position: sticky;
+    height: 100%;
+  }
+  .right-column {
+    position: relative;
+    height: 100%;
+  }
+
+  .visibility-md {display: inline-flex;}
+
+  .visibility-alter {display: none;}
+}
+
+@media only screen and (min-width: 992px) {
+  .right-column {
+    top: 0;
+    position: sticky;
+    height: 100%;
+  }
+
+  .visibility-md {display: none;}
+
+  .visibility-alter {display: inline-flex;}
 }
