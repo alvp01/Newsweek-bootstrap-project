@@ -16,10 +16,10 @@
 
 <body>
   <main>
-    <div class="container-fluid bg-pale d-flex justify-content-center">
+    <div class="container-fluid bg-pale d-flex justify-content-center px-0">
       <div class="page-body px-3 bg-white">
         <header class="row">
-          <div class="col-12 header-container align-items-end desk-header pb-2">
+          <div class="col-12 header-container align-items-end d-none d-lg-flex pb-2">
             <span class="header-date col-lg-4">Tue, Dec 10, 2019</span>
             <div class="col-lg-4">
               <img class="header-img" src="./img/Newsweek-header.png" alt="">
@@ -29,7 +29,7 @@
               <a class="header-subscribe" href="#">subscribe</a>
             </div>
           </div>
-          <div class="col-12 header-menu desk-header pr-0">
+          <div class="col-12 header-menu d-none d-lg-flex pr-lg-0">
             <div class="col-11 pt-2">
               <ul class="nav d-flex justify-content-between">
                 <li class="nav-item header-links"> <a class="text-body" href="#">U.S</a> </li>
@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="col-12 resp-header resp-header-container">
-            <div class="col-6">
+            <div class="col-6 ml-n3">
               <img
               class="newsweek-logo-img"
               src="./img/Newsweek-header.png"
@@ -61,7 +61,7 @@
               <a class="resp-header-subscribe mr-2" href="#">SUBSCRIBE</a>
 
             </div>
-            <div class="col-1">
+            <div class="col-1 d-flex">
               <a class="menu-btn mr-n2" href="#"> <i class="fas fa-bars fa-2x"></i> </a>
             </div>
           </div>
@@ -856,17 +856,16 @@
         </section>
         <!-- end of the slideshows and start of the other sections. US -->
         <section class="row px-3 py-4">
-          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 font-weight-bold text-danger">US</h5>
-          <article class="col-lg d-flex flex-column">
+          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 topic-title">U.S.</h5>
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-1" src="https://d.newsweek.com/en/full/1543980/feral-pig-wild.jpg?w=397&h=265&f=2954584e59eb667fc5b2a4ce3e9c7242" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">Government Preparing To Shoot Feral Hogs From Helicopters at KY Park</a></h4>
           </article>
-          <article class="col-lg d-flex flex-column">
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-1" src="https://d.newsweek.com/en/full/1543974/black-voices-trump-atlanta-reactions.jpg?w=397&h=265&f=61d7d2fd1c893e19029a05db9f3aad79" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">Black Voices for Trump Coalition Met With Mixed Reactions</a></h4>
           </article>
-          <div class="col-lg d-flex flex-column">
-
+          <div class="col-12 col-md-4 d-flex flex-column">
             <article class="row border-bottom mb-3 pb-3">
               <div class="col-lg-4">
                 <img class="img-fluid" src="https://d.newsweek.com/en/full/1543916/donald-trump-black-voices-trump-livestream.jpg?w=135&h=90&f=41badc3734e72dd38a09ff77c1f7ced9" alt="img">
@@ -891,22 +890,20 @@
                 <h6 class="subheading"><a class="text-body" href="#">Gordon Ramsay Opens First Steakhouse in Midwest</a></h6>
               </div>
             </article>
-
           </div>
         </section>
         <!-- End of the US start of the world -->
         <section class="row px-3 py-4">
-          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 font-weight-bold text-danger">World</h5>
-          <article class="col-lg d-flex flex-column">
+          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 topic-title">World</h5>
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1543841/bts-performing-nyc-may-2019.jpg?w=397&h=265&f=4db51ec04285a743ee776838e71ced46" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">#MakeItRightAcoustic Trends As BTS Releases New Remix</a></h4>
           </article>
-          <article class="col-lg d-flex flex-column">
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1543816/wonho-monsta-x-las-vegas-iheartradio-festival.jpg?w=397&h=265&f=6acd788793dfa8335862f2202ae6bfff" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">#LoveUWonho Trends As Monsta X Fans Continue Pleading for Wonho's Return</a></h4>
           </article>
-          <div class="col-lg d-flex flex-column">
-
+          <div class="col-12 col-md-4 d-flex flex-column">
             <article class="row border-bottom mb-3 pb-3">
               <div class="col-lg-4">
                 <img class="img-fluid" src="https://d.newsweek.com/en/full/1543732/syria-idlib-isis-leader-baghdadi-killed.jpg?w=135&h=90&f=9090b83cb899f27bf259c004db2b56df" alt="img">
@@ -931,22 +928,20 @@
                 <h6 class="subheading"><a class="text-body" href="#">Vigilante Group Falsely Smears Gay Couple As Pedophiles, Gets Them Arrested</a></h6>
               </div>
             </article>
-
           </div>
         </section>
         <!-- End of the world section start of the business section-->
         <section class="row px-3 py-4">
-          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 font-weight-bold text-danger">Business</h5>
-          <article class="col-lg d-flex flex-column">
+          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 topic-title">Business</h5>
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1542285/mcdonalds-restaurant.jpg?w=397&h=265&f=bdde210a95d95d1f5f3d9599e5e2158d" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">McDonald's CEO Steps Down After Relationship With Employee</a></h4>
           </article>
-          <article class="col-lg d-flex flex-column">
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1541753/spotify.jpg?w=397&h=265&f=fbe0ee16d02d9bbbbef6251d12baf603" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">Now that labels can pay to promote music on Spotify, smaller artists may</a></h4>
           </article>
-          <div class="col-lg d-flex flex-column">
-
+          <div class="col-12 col-md-4 d-flex flex-column">
             <article class="row border-bottom mb-3 pb-3">
               <div class="col-lg-4">
                 <img class="img-fluid" src="https://d.newsweek.com/en/full/1540146/lawrence-summers-clinton-wealth-tax.jpg?w=135&h=90&f=1086eb908be13ff9eddf2f093ddfc6e1" alt="img">
@@ -975,17 +970,16 @@
         </section>
         <!-- End of the business section start of the tech n science -->
         <section class="row px-3 py-4">
-          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 font-weight-bold text-danger"> Tech & Science</h5>
-          <article class="col-lg d-flex flex-column">
+          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 topic-title"> Tech & Science</h5>
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1543911/bitcoin.jpg?w=397&h=265&f=339e04f9da727f5dd4d2516eeaec5209" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">Crypto Firm Rejects Paper Claiming It Was Used to Manipulate Bitcoin Price</a></h4>
           </article>
-          <article class="col-lg d-flex flex-column">
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1543860/pulsar-sax-j18084-3658.jpg?w=397&h=265&f=589b4c67cc3a43ad3ac9793737e7e0a7" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">NASA Detects Record-breaking X-ray Burst From Massive Cosmic Explosion</a></h4>
           </article>
-          <div class="col-lg d-flex flex-column">
-
+          <div class="col-12 col-md-4 d-flex flex-column">
             <article class="row border-bottom mb-3 pb-3">
               <div class="col-lg-4">
                 <img class="img-fluid" src="https://d.newsweek.com/en/full/1543680/mark-zuckerberg.jpg?w=135&h=90&f=d28e21f286da6bd4eabf5b80fb6f39eb" alt="img">
@@ -1010,22 +1004,20 @@
                 <h6 class="subheading"><a class="text-body font-weight-bold" href="#">Medieval Catholic Church Shaped Psychology of Westerners Living Today</a></h6>
               </div>
             </article>
-
           </div>
         </section>
         <!-- end of the tech n science section start of the culture section -->
         <section class="row px-3 py-4">
-          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 font-weight-bold text-danger">Culture</h5>
-          <article class="col-lg d-flex flex-column">
+          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 topic-title">Culture</h5>
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1543456/kelly-severide-leaving-chicago-fire.jpg?w=397&h=265&f=2fedf99e68b160944f24a0c56e41289b" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">'Chicago Fire': Is Kelly Severide Leaving the Show?</a></h4>
           </article>
-          <article class="col-lg d-flex flex-column">
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1543472/jughead-riverdale.jpg?w=397&h=265&f=cc44da9cb2b9c83cc791ef20113a9e08" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">'Riverdale' Spoilers: Season 4, Episode 5 Revealed Major Jughead Clue</a></h4>
           </article>
-          <div class="col-lg d-flex flex-column">
-
+          <div class="col-12 col-md-4 d-flex flex-column">
             <article class="row border-bottom mb-3 pb-3">
               <div class="col-lg-4">
                 <img class="img-fluid" src="https://d.newsweek.com/en/full/1530769/ladybug-masked-singer.jpg?w=135&h=90&f=c12b05056093215424f43ab5d43bfcf7" alt="img">
@@ -1050,21 +1042,20 @@
                 <h6 class="subheading"><a class="text-body h6 font-weight-bold" href="#">33-foot-long 'Sea Monster' Found Surrounded by Ancient Crocodile Teeth</a></h6>
               </div>
             </article>
-
           </div>
         </section>
         <!-- end of the culture section start of the sports section -->
         <section class="row px-3 pb-4">
-          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 font-weight-bold text-danger">Sports</h5>
-          <article class="col-md-6 col-lg-4 d-flex flex-column">
+          <h5 class="col-12 border-top boder-secondary pt-4 pb-2 my-1 topic-title">Sports</h5>
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1543465/patrick-mahomes-kansas-city-chiefs.jpg?w=397&h=265&f=862fdd94311b796ed89b52b3649cfaf1" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">Will Patrick Mahomes Play in Week 10 vs. Tennessee Titans?</a></h4>
           </article>
-          <article class="col-md-6 col-lg-4 d-flex flex-column">
+          <article class="col-12 col-md-4 d-flex flex-column">
             <img class="img-fluid mb-2" src="https://d.newsweek.com/en/full/1543446/unc-cole-anthony.jpg?w=397&h=265&f=055a62fb0298ddc780dacccca0e8febf" alt="img">
             <h4 class="tri-heading"><a class="text-body" href="#">Who is Cole Anthony? Freshman Did Something at UNC Even Jordan Couldn't</a></h4>
           </article>
-          <div class="col-md-12 col-lg-4 d-flex flex-column">
+          <div class="col-12 col-md-4 d-flex flex-column">
             <article class="row border-bottom mb-3 pb-3">
               <div class="col-md-4">
                 <img class="img-fluid" src="https://d.newsweek.com/en/full/1543439/trump-rally-lsu-louisiana.jpg?w=135&h=90&f=321a63e185a656347d0113c536477ced" alt="img">
