@@ -1,0 +1,540 @@
+/* Start of the body style rules */
+
+/* Background color for the body container */
+.bg-pale { background-color: #f4f5f6 !important; }
+
+/* Style to emulate how the original page looks in me screen */
+.page-body {
+  /* Box model */
+  margin: auto;
+  width: 100%;
+  max-width: 1310px;
+}
+
+/* Header and menu section */
+
+/* Style for the desktop header */
+.header-container {
+  /* Bod model */
+  height: 90px;
+  width: 100% !important;
+
+  /* Visual */
+  background-color: #f72210;
+}
+
+/* Style for the date text in the header */
+.header-date {
+  /* Typography */
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
+}
+
+/* Rule for the "Sign In" link in the header */
+.header-sign {
+  /* Box model */
+  padding: 6px 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  /* Typography */
+  font: bold 18px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  color: white;
+}
+
+.header-sign:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Class for the "Subscribe" link in the header */
+.header-subscribe {
+  /* Box model */
+  display: inline-block;
+  padding: 6px 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  /* Typography */
+  font: bold 18px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #f72210;
+
+  /* Visual */
+  background-color: white;
+}
+
+.header-subscribe:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+/* Class to style the menu on the desktop version */
+.header-links {
+  /* Typography */
+  font-size: 21px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header-links a:hover {
+  color: #f72210 !important;
+  text-decoration: none;
+}
+
+/* Class for setting the height to the nav-bar */
+.header-menu {
+  /* Box model */
+  height: 56px !important;
+  display: flex;
+}
+
+/* Class to style the text input in the nav-bar */
+.search-box {
+  /* Box model */
+  width: 60px;
+
+  /* Visual */
+  border: none;
+}
+
+/* Sizing the magnifying glass icon */
+.search-glass {
+  /* Box model */
+  width: 20px;
+  height: 20px;
+}
+
+/* Class for achieving the red tab in the header */
+.red-tap {
+  /* Box model */
+  border-left: 12px solid white !important;
+  border-top: 13px solid #f72210 !important;
+}
+
+/* Mobile devices styles */
+
+/* Class for fixing the Newsweek logo img */
+.newsweek-logo-img {
+  /* Box model */
+  width: 132px;
+  height: 20px;
+}
+
+/* Class which styles the header height and background color */
+.resp-header-container {
+  /* Box model */
+  height: 50px;
+
+  /* Visual */
+  background-color: #f72210;
+}
+
+/* Class to set the "Sign in" link in the responsive header */
+.resp-header-sign {
+  /* Positioning */
+  position: relative;
+
+  /* Box model */
+  min-width: 50px;
+  display: inline-block;
+  padding: 6px 3px;
+
+  /* Typography */
+  color: white;
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.resp-header-subscribe {
+  /* Positioning */
+  position: relative;
+
+  /* Box model */
+  display: inline-block;
+  padding: 6px 3px;
+
+  /* Typography */
+  font: bold 14px/14px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #f72210;
+
+  /* Visual */
+  background-color: white;
+}
+
+/* Class to set color of the menu button on the responsive header */
+.menu-btn { color: #fb9a94; }
+
+/* Main section styles */
+
+/* Typography for the main section sub-topics */
+.n-title { font: bold 19px/19px "Roboto Condensed", sans-serif; }
+
+/* Typography styles for opinion articles */
+.subheading { font: bold 17px/21px "Roboto Condensed", sans-serif; }
+
+.subheading a:hover {
+  color: #f72210 !important;
+  text-decoration: none;
+}
+
+/* Custom made border for the stories sub-section */
+.stories-border {
+  position: relative;
+}
+
+.stories-border::before {
+  /* Positioning */
+  position: absolute;
+  left: 5%;
+
+  /* Box model */
+  width: 90%;
+  border-top: 1px solid #dee2e6;
+
+  /* Miscellaneous */
+  content: '';
+}
+
+/* Fixed dimensions for the latest stories images */
+.latest-img {
+  /* Box model */
+  width: 135px;
+  height: 90px;
+}
+
+/* Typography style for culture and travel titles in the main column */
+.culture-title { font: 20px/22px "Lora", serif; }
+
+.culture-title a:hover { text-decoration: none; }
+
+/* Typography style for the text on the culture and travel sub-section */
+.culture-text { font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+
+/* Typography style for the titles of the more stories section */
+.more-stories { font: bold 17px/20px "Roboto Condensed", sans-serif; }
+
+.more-stories a:hover { text-decoration: underline #f72210; }
+
+/* Styling the text of the more stories section */
+.more-stories-text {
+  /* Typography */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+
+/* Styling the typography of each inner topic in the main section */
+.section-title { font: bold 16px/16px "Roboto Condensed", sans-serif; }
+
+/* Style for the top stories titles */
+.top-stories-headings { font: bold 24px/24px "Roboto Condensed", sans-serif; }
+
+.top-stories-headings a:hover { text-decoration: underline #f72210; }
+
+/* The font appearance for the authors names */
+.authors {
+  /* Box model */
+  margin-top: 4px;
+
+  /* Typography */
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase;
+}
+
+/* Class to write text over the articles images in the editors pick and left column */
+.category-img {
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  /* Box model */
+  padding: 8px 15px 9px;
+  display: block;
+
+  /* Typography */
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+
+  /* Visual */
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* In the magazine section */
+
+/* Style for the magazine link. "See all the features" */
+.magazine-link {
+  /* Box model */
+  display: inline-block;
+  max-height: 38px;
+  padding: 10px 10px 10px 12px;
+
+  /* typography */
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+
+  /* Visual */
+  background-color: #f4f5f6;
+}
+
+.magazine-link:hover {
+  background-color: #dbdcdd;
+  color: black;
+  text-decoration: none;
+}
+
+/* Class to style the magazine images */
+.magazine-pick {
+  /* Box model */
+  display: block;
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Class for styling the images on the magazine section */
+.magazine-img {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  /* Box model */
+  transform: translate(-50%, 0%);
+  width: auto;
+  height: 100% !important;
+  max-width: inherit;
+  margin: 0;
+}
+
+/* Class to style the magazine category container */
+.mag-category {
+  /* Typography */
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+/* Class to style the red background white letter categories */
+.mag-red {
+  /* Box model */
+  margin-right: 7px;
+  padding: 2px 7px;
+
+  /* Typography */
+  color: white;
+
+  /* Visual */
+  background-color: #f72210;
+}
+
+/* Class for modeling the white background red letters part of the categories */
+.mag-white {
+  /* Box model */
+  margin-right: 7px;
+  padding: 2px 7px;
+
+  /* Typography */
+  color: #f72210;
+}
+
+/* Class to give the "In the magazine" title a fixed height */
+.magazine-title { height: 40px; }
+
+/* Chaging the font size for the articles titles */
+.magazine-headings {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* Class to style the focused article in the magazine */
+.mag-featured {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
+  /* Box model */
+  width: auto;
+  height: 100%;
+  max-width: inherit;
+}
+
+/* Container class for the focused article */
+.magazine-featured {
+  /* Positioning */
+  position: relative;
+
+  /* Box model */
+  display: block;
+  padding-bottom: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* In focus red background white letter text  */
+.infocus {
+  /* Box model */
+  margin-right: 7px;
+  padding: 2px 7px;
+  width: 77px;
+
+  /* Typography */
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: white;
+
+  /* Visual */
+  background-color: #f72210;
+}
+
+/* Classes to style four columns layed out sections (Editos Pick and In the magazine) */
+
+/* Class for the links/titles */
+.quad-title { font: bold 24px/24px "Roboto Condensed", sans-serif; }
+
+.quad-title a:hover { text-decoration: underline #f72210; }
+
+/* Class for the description text */
+.quad-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* Class to style threr column layed out sections (Features slideshow, U.S.m Sports, etc.) */
+.tri-heading {
+  font: bold 22px/22px "Roboto Condensed", sans-serif;
+  text-transform: capitalize;
+}
+
+.tri-heading a:hover { text-decoration: underline #f72210; }
+
+/* Class to set the numbers on the slideshow section */
+.slideshow2 {
+  /* Positioning */
+  left: 0;
+  bottom: 0;
+
+  /* Box model */
+  width: 70px;
+  height: 52px;
+
+  /* Typography */
+  color: #e9212e;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* Visual */
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+}
+
+/* Class for styling the titles from the U.S. to the Sports sections */
+.topic-title {
+  font: bold 22px/22px "Roboto Condensed", sans-serif;
+  color: #f72210;
+}
+
+/* Footer section */
+
+/* Footer icons hover effects */
+.footer-icons { color: #737373; }
+
+.fb:hover { color: #3b5998; }
+
+.tw:hover { color: #1da1f2; }
+
+.insta:hover { color: #405de6; }
+
+.tum:hover { color: #35465c; }
+
+.in:hover { color: #0077b5; }
+
+/* Class for styling the newsweek logo */
+.newsweek-img {
+  width: 236px;
+  height: 36px;
+}
+
+/* Class for styling the copyright text */
+.copyright-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+/* Styling the footer links */
+.footer-nav-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+  /* Class which simulates the sticky effect on destop and md versions */
+  .left-column {
+    top: 0;
+    position: sticky;
+    height: 100%;
+  }
+
+  .right-column {
+    position: relative;
+    height: 100%;
+  }
+
+  .resp-header-sign {
+    color: white;
+    position: relative;
+    font: bold 18px/14px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .resp-header-subscribe {
+    background-color: white;
+    color: #f72210;
+    position: relative;
+    font: bold 18px/14px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .desk-header { display: none; }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Class which simulates the sticky effect on desktop */
+  .right-column {
+    top: 0;
+    position: sticky;
+    height: 100%;
+  }
+
+  .resp-header { display: none; }
+
+  .desk-header { display: inline-flex; }
+}
